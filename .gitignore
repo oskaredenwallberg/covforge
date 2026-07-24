@@ -1,4 +1,6 @@
 # Added
+scripts/
+data/
 .venv/
 *.DS_Store
 

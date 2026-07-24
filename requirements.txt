@@ -1,0 +1,7 @@
+numpy
+
+pandas
+yfinance
+fredapi
+jupyter
+ipykernel
