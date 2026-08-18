@@ -1,6 +1,6 @@
 # CovForge
 
-This library serves as a minimalistic tool to create risk models used for quantitative portfolio construction. It is part of an open software package presented in the [thesis paper](https://example.com). A risk model is a series of covariance matrices constructed from historical returns. Risk models can be constructed using many different methods. The three methods used in this project are: rolling window covariance, exponentially weighted moving average (EWMA), and iterated EWMA (IEWMA) factor model. 
+This library serves as a minimalistic tool to create risk models used for quantitative portfolio construction. It is part of an open software package presented in the [thesis paper](https://example.com). A risk model is a series of covariance matrices constructed from historical returns. Risk models can be constructed using many different methods. The three methods used in this project are: rolling window covariance, exponentially weighted moving average (EWMA), and iterated EWMA (IEWMA) factor model. [PyPI](https://pypi.org/project/covforge/) [GitHub](https://github.com/oskaredenwallberg/covforge) 
 
 ## Risk averse strategies
 Many simple investment strategies such as 
