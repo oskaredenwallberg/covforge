@@ -1,42 +1,40 @@
-    [build-system]
-    requires = ["setuptools>=77.0.3"]
-    build-backend = "setuptools.build_meta"
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
 
-    [project]
-    name = "covforge"
-    version = "0.1.0"
-    description = "NumPy-based covariance risk models for portfolio construction."
-    readme = "README.md"
-    requires-python = ">=3.9"
+[project]
+name = "covforge"
+version = "0.1.0"
+description = "NumPy-based covariance risk models for portfolio construction."
+readme = "README.md"
 
-    authors = [
-        {name = "Oskar Edén Wallberg", email = "oswa.public@gmail.com"},
-        {name = "Alexander Karolin", email = "alexander.karolin@gmail.com"}
-    ]
+authors = [
+    {name = "Oskar Edén Wallberg", email = "oswa.public@gmail.com"},
+    {name = "Alexander Karolin", email = "alexander.karolin@gmail.com"}
+]
 
-    dependencies = [
-        "numpy>=1.23",
-    ]
+dependencies = [
+    "numpy>=1.23",
+    "pandas",
+]
 
-    license = "MIT"
-    license-files = ["LICENSE"]
+license = "MIT"
+license-files = ["LICENSE"]
 
-    keywords = ["risk", "riskmodel", "markowitz", "optimization", "covariance", "sigma"]
+keywords = ["risk", "riskmodel", "markowitz", "optimization", "covariance", "sigma"]
 
-    classifiers = [
-        "Development Status :: 3 - Alpha",
-        "Intended Audience :: Financial and Insurance Industry",
-        "Intended Audience :: Science/Research",
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.11",
-        "Programming Language :: Python :: 3.12",
-        "Programming Language :: Python :: 3.13",
-        "Operating System :: OS Independent",
-        "Topic :: Office/Business :: Financial",
-        "Topic :: Scientific/Engineering :: Mathematics",
-    ]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
 
-    [project.urls]
-    Repository = "https://github.com/oskaredenwallberg/covforge"
+[project.urls]
+Repository = "https://github.com/oskaredenwallberg/covforge"
+
+[tool.setuptools.packages.find]
+where = ["src"]
